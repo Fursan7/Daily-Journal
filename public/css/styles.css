@@ -20,6 +20,10 @@ input {
 	background-color: white;
 }
 
+.space {
+	height: 30vh;	
+}
+
 .footer {
 	text-align: center;
 	width: 100%;
