@@ -15,6 +15,11 @@
     color: #1abc9c !important;
 }
 
+input {
+	margin-top: 25px;
+	text-align: center;
+}
+
 .footer {
 	position: fixed;
 	text-align: center;
