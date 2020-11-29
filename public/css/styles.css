@@ -23,6 +23,10 @@ input {
 	border-radius: 10px;
 }
 
+input:action, input:focus {
+	border-radius: 10px;
+}
+
 .footer {
 	position: fixed;
 	text-align: center;
