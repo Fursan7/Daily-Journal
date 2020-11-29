@@ -1,9 +1,10 @@
 <%- include('partials/header.ejs'); %>
 
+<form action="https://daily-journal-main.herokuapp.com/compose">
+    <input type="submit" value="Compose" />
+</form>
 <h1>Home</h1>
 <p><%= home %></p>
-
-<button href="https://daily-journal-main.herokuapp.com/compose">Compose</button>
 
 <% posts.forEach(function(post) {  %> 
 
