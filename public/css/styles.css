@@ -18,6 +18,9 @@
 input {
 	margin-top: 25px;
 	text-align: center;
+	float: center;
+	background-color: white;
+	border-radius: 10px;
 }
 
 .footer {
