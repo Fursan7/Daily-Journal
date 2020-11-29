@@ -28,7 +28,7 @@ input {
 }
 
 .footer p {
-	margin-top: 25px;
+	margin-top: auto;
 	font-size: 12px;
   color: #fff;
 }
