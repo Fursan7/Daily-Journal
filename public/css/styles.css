@@ -15,7 +15,7 @@
     color: #1abc9c !important;
 }
 
-input {
+form {
 	margin-top: 25px;
 	display:inline-block;
  	padding:0.3em 1.2em;
@@ -31,7 +31,7 @@ input {
  	transition: all 0.2s;
 }
 
-input:hover {
+form:hover {
 	background-color:#4095c6;	
 }
 
