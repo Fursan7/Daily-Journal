@@ -17,9 +17,9 @@ const Post = mongoose.model("Post", postSchema);
 
 const posts = [];
 const homeStartingContent =
-  "Article written by Fursan. You can compose your own journal text here with a title and body.";
+  "Article written by Fursan. You can compose your own journal text here with a title and body. You can also delete that post.";
 const aboutContent =
-  "You can compose your own journal text here with a title and body.";
+  "You can compose your own journal text here with a title and body. You can also delete the post.";
 const contactContent =
   "Fursan Afzal - sp18-bse-083@cuilahore.edu.pk";
 
