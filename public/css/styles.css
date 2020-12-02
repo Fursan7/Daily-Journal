@@ -39,7 +39,8 @@ input {
 }
 
 .footer p {
-	margin-top: 25px;
-	font-size: 12px;
+/* 	margin-top: 25px; */
+	font-size: 18px;
+	font-weight: bold;
   color: black;
 }
