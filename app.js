@@ -76,6 +76,20 @@ app.get("/posts/:topic", function (req, res) {
   
 });
 
+app.post("/delete", function (req, res) {
+  const checkedItemId = req.body.btn;
+  console.log(checkedItemId);
+  Post.findByIdAndRemove(checkedItemId, function (err) {
+    if (!err) {
+      console.log("Successfully deleted checked item.");
+      res.redirect("/");
+    }
+    else{
+      console.log(err);
+    }
+  });
+});
+
 let port = process.env.PORT;
 app.listen(port, function () {
   console.log("Server started on port 3000");
