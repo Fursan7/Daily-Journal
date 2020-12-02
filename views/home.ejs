@@ -15,7 +15,7 @@
   <a href="/posts/<%= post.title %>">Read More </a>
 </p>
 <form action="/delete" method="post">
-  <button class="btn btn-info" name="btn" value="<%=post._id%>">Delete</button>
+  <button class="btn btn-light" name="btn" value="<%=post._id%>">Delete</button>
 </form>
 
 <% console.log(post.title); %> <% }); %> <%- include('partials/footer.ejs'); %>
